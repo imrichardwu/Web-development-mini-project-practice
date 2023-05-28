@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Keeper</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div class="align">
+        <img src="./scoreboard.jpg" class="jpscore">
+        <section class="scoreboard">
+        <h1 class="scorecount"><span id="p1Display">0</span> to <span id="p2Display">0</span></h1>
+        <p>Use the bottons below to keep score</p>
+        <div class="set"> <span class="title">Playing To</span>
+            <select name="" id="playto">
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+            </select>
+        </div>
+        <div class="threebuttons">
+            <button id="p1Button">+1 Player One</button>
+            <button id="p2Button">+1 Player Two</button>
+            <button id="reset">Reset</button>
+        </div>
+        </section>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

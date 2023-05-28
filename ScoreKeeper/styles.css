@@ -1,0 +1,100 @@
+.winner {
+    color: #84D455;
+}
+
+.loser {
+    color: red;
+}
+
+body {
+    background: #8739f9;
+}
+
+.scoreboard {
+    width: 30rem;
+   border: 0.5px solid gray;
+   box-shadow: 2px 2px 2px black;
+   background-color: #f2f5ff;
+}
+
+.scorecount {
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    padding: 0;
+    margin: 10px 0px;
+}
+
+.title {
+    font-weight: bold;
+    margin-right: 2px;
+    font-size: 20px;
+}
+
+.set {
+    margin-bottom: 15px;
+}
+
+#playto {
+    border-radius: 20px;
+    padding: 5px;
+    padding-left: 5px;
+}
+
+.threebuttons {
+    display: flex;
+    justify-content: space-around;
+    border: px solid black;
+}
+
+#p1Button, #p2Button, #reset {
+    width:  140px;
+    height: 50px;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    border: none;
+}
+
+#p1Button {
+    background-color: #84D455;
+}
+
+#p2Button {
+    background: #37B9F1;
+}
+
+#reset {
+    background-color: red;
+}
+
+.jpscore {
+    display: block;
+    width: 30rem;
+    margin: 0;
+    padding: 0;
+}
+
+.align {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 600px) {
+    .scoreboard {
+            width: 20rem;
+            border: 0.5px solid gray;
+            box-shadow: 2px 2px 2px black;
+            background-color: #f2f5ff;
+        }
+    .jpscore {
+        width: 20rem;
+    }
+
+}

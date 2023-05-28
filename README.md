@@ -1,0 +1,8 @@
+# Hello, I'm Richard 👋
+Welcome to my personal portfolio website! More updates to come.
+# About Me
+I'm a sophmore at University of Alberta in, Edmonton, AB, Canada. I am currently studying Computer Science. I'm fascinated by the digital world and love learning new technology!
+📍 Originally from Calgary, AB, Canada
+🌱 In the process of learning Javascript, and C
+# Reach Out
+Feel free to connect on [LinkedIn](https://www.linkedin.com/in/richard-wu-3a514b203/) or reach out via email (Richardw1857@gmail.com). Always looking to meet new people and make new friends 😊
